@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mozilla Campus Club</title>
+    <link rel="icon" href="../images/sitelogo.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style type="text/css">
+        *{
+            padding: 0px;
+            margin:0px;
+        }
+        #home img{
+            height: auto;
+            width:100vw;
+        }
+        #mozillaclub{
+            padding-top: 50px;
+            padding-right: 50px;
+            padding-left: 20px;
+            padding-bottom: 40px;
+            background-color: #FF6611;
+            color: #ffffff;
+        }
+        .backtohome{
+            height: 50px;
+            width: 50px;
+            background-image: url(https://static.thenounproject.com/png/74837-200.png);
+            background-position: center;
+            background-size: cover;
+            position: fixed;
+            top:7%;
+            left: 3%;
+            z-index: 99999;
+        }
+        #events p{
+            color: #ffffff !important;
+        }
+        .main {
+            position: relative;
+            width: 50%;
+        }
+
+        .image {
+            opacity: 1;
+            display: block;
+            width: 300px;
+            height: 400px;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        @media screen and (max-width: 600px) {
+            .middle {
+                left: 75%;
+            }
+        }
+
+        .main:hover .image {
+            opacity: 0.3;
+        }
+
+        .main:hover .middle {
+            opacity: 1;
+        }
+
+        .text {
+            color: white;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Home -->
+    <section id="home" >
+        <img src="spectrum.jpeg">
+        <a href="../" class="backtohome" data-aos="zoom-in"></a>
+    </section>
+    <!-- Mozilla club -->
+    <section id="mozillaclub">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 d-xl-flex justify-content-center align-items-center"><img data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine" class="img-fluid" src="mozlogo.png" style="margin: 0px;width: 500px;"></div>
+            <div data-aos="fade-left" data-aos-offset="600" data-aos-easing="ease-in-sine" class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <p style="font-size: 42px;"><br>What is a Mozilla Campus Club?<br><br></p>
+                <p style="font-size: 16px;"><br>Mozilla’s mission is to ensure the Internet is a global public resource, open and accessible to all. A Mozilla University &amp; College Club is a group of students with a passion for technology who meet regularly to advance this mission
+                    by building and innovating on open source projects that keep the web open.<br><br></p>
+            </div>
+        </div>
+    </section><br>
+
+    <!-- What do we do as a mozilla campus club? -->
+    <section class="whatwedo">
+    <div class="container">
+        <div class="text-center">
+            <p style="font-size: 42px;">What do we do as a mozilla campus club?</p>
+        </div>
+        <div class="lead"  data-aos="zoom-out">
+            Being the official Mozilla Campus Club of CET, we make sure that the students, with a passion for technical knowledge, find a feasible learning environment to innovate their ideas, meeting new requirements in various aspects of technology.  
+        </div><br>
+        <div class="row"  data-aos="zoom-out">
+            <div class="col-md-3">
+                <h5>Awareness</h5>
+                <div class="lead">
+                    We spread awareness about open source projects in our college. Students are asked to make projects covering a wide spectrum of technologies, improving their proficiency. Projects ranging from IOT & sensors to android and web development have constantly been driven forward.
+                </div>
+            </div>
+            <div class="col-md-3"  data-aos="zoom-out">
+                <h5>Open source contribution</h5>
+                <div class="lead">
+                    We encourage our students to participate in various open source events, with problem statements gaining professional skills and thus contributing to the Mozilla community.
+                </div>
+            </div>
+            <div class="col-md-3"  data-aos="zoom-out">
+                <h5>Sessions</h5>
+                <div class="lead">
+                    We organize various seminars/workshops in our college, giving a chance to the students of our college as well as other colleges to take part in the sessions and thereby making them learn about new technology stack. The Club is striving ahead to emerge as the go-to forum with constant active discussions and sessions where every minor technical problem can be addressed.
+                </div>
+            </div>
+            <div class="col-md-3"  data-aos="zoom-out">
+                <h5>Technical Atmosphere</h5>
+                <div class="lead">
+                    We provide the students the much-cherished opportunity to come together to learn, discuss and exchange ideas in our technical community with like-minded people. The club is mentored by expert seniors and faculties who have contributed greatly to the institute.
+                </div>
+            </div>
+        </div>
+    </div><br>
+    </section>
+
+    <!-- Events -->
+    <section id="events">
+        <div class="box pb-4" style="background-color: #FF6611 !important;" >
+            <div class="card-title text-center">
+                <p class="highlight pt-4" style="font-size: 42px;">Our Events</p>
+            </div>
+            <div class="card-body" data-aos="flip-up">
+                <div class="main">
+                    <img src="../assets/Mozilla-01.jpg" alt="5 Things to know before submitting a CFP" class="image" width="300" height="400">
+                    <div class="middle">
+                      <div class="text">
+                        <a href="https://community.mozilla.org/en/events/5-things-to-know-while-submitting-a-cfp/" class="btn btn-dark">See More Event Details!</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section><br>
+
+    <!-- Contact Us -->
+    <section id="contactus">
+        <div style="background-repeat: no-repeat;background-size: contain;background-position: bottom;background-image: url(footer.png);height: 40vh;width: auto;padding: 50px;">
+            <div class="row">
+                <div class="col">
+                    <h1>Contact Us</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                        <p>spectrumclub.cetb@gmail.com</p>
+                        <a href="https://community.mozilla.org/en/groups/spectrum/">Community Link</a><br>
+                        <a href="https://www.facebook.com/spCETrum/" target="_blank"><i class="fab fa-facebook fa-1.5x"></i></a>
+                        <a href="https://www.instagram.com/spectrum.cetb/?hl=en" target="_blank"><i class="fab fa-instagram fa-1.5x"></i></a>
+                        <a href="https://www.linkedin.com/in/spectrum-cet-3b71431b1/" target="_blank"><i class="fab fa-linkedin fa-1.5x"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- External scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
