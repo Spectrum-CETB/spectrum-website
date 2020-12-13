@@ -1,4 +1,7 @@
 # spectrum-website
+
+<p align ="center"><img src = "https://user-images.githubusercontent.com/61475220/92301477-d87b4b80-ef81-11ea-84e8-17a577d64522.png" width="700px"></p>
+
 - Intially the meaning of spectrum is to show characteristic colour of visible light after passing through prism.
 - It is the technical society of CET( College of engineering and technology) bhubaneswar.
 - Spectrum has three wings- Hardware, software and designing. Under this you have sub-headings also.
